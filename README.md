@@ -181,7 +181,7 @@ Os parâmetros `dataInicio` e `dataFim` são opcionais e devem seguir o formato 
 ### Passo a passo
 1. **Clonar o repositório:**
 ```bash
-git clone https://github.com/hevertonxav/api-financas-pessoais.git
+git clone https://github.com/hevertonxav/api-gestao-financas-pessoais.git
 ```
 2. **Configurar o banco de dados:**
 
