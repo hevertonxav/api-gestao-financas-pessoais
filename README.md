@@ -286,7 +286,7 @@ spring.datasource.password=${DB_PASSWORD}
 
 **Endpoint:** `GET /v1/resumo?dataInicio=2025-06-01&dataFim=2025-07-01`
 
-### Saída
+#### Saída
 
 ```json
 {
