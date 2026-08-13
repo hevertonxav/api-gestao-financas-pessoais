@@ -133,7 +133,7 @@ GET /v1/transacoes/saidas?dataInicio=2025-06-01&dataFim=2025-06-30
 ```
 ### 📅 Consulta por categoria e período:
 
-Também é possível consultar usando categoria e períodos como filtro.
+Também é possível consultar usando categoria e período como filtro.
 
 ```http
 GET /v1/transacoes?categoria=Contas&dataInicio=2025-06-01&dataFim=2025-06-
