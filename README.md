@@ -133,6 +133,8 @@ GET /v1/transacoes/saidas?dataInicio=2025-06-01&dataFim=2025-06-30
 ```
 ### 📅 Consulta por categoria e período:
 
+Também é possível consultar usando categoria e períodos como filtro.
+
 ```http
 GET /v1/transacoes?categoria=Contas&dataInicio=2025-06-01&dataFim=2025-06-
 ```
@@ -156,7 +158,7 @@ Os parâmetros `dataInicio` e `dataFim` são opcionais e devem seguir o formato 
 
 ## 📋 Regras de Negócio
 
-* O valor de uma transação deve ser maior que `0`.
+* O valor mínimo de uma transação é de `0.01`.
 * O nome da Categoria é obrigatório.
 * A descrição da transação é obrigatória.
 * A data da transação não pode ser uma data futura.
